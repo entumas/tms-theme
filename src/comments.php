@@ -22,7 +22,7 @@ endif;
 		<p class="comments-title"><?php
 			$comments_number = get_comments_number();
 			if ( '1' === $comments_number ) :
-				printf( _x( 'One comment on &ldquo;%s&rdquo;', 'comments title', 'tms' ), get_the_title() );
+				printf( _x( 'One comment on &ldquo;%s&rdquo;', 'comments title', 'tms-theme' ), get_the_title() );
 			else :
 				printf(
 					_nx(
@@ -30,7 +30,7 @@ endif;
 						'%1$s comments on &ldquo;%2$s&rdquo;',
 						$comments_number,
 						'comments title',
-						'tms'
+						'tms-theme'
 					),
 					number_format_i18n( $comments_number ),
 					get_the_title()
@@ -41,8 +41,8 @@ endif;
 
 		<?php
 		$paginate_comments = array(
-			'prev_text' => tms_get_svg_icon( array( 'icon' => 'chevron-left', 'class' => 'meta-nav' ) ) . '<span class="screen-reader-text" aria-hidden="true"> ' . __( 'Previous post:', 'tms' ) . '</span>',
-			'next_text' => tms_get_svg_icon( array( 'icon' => 'chevron-right', 'class' => 'meta-nav' ) ) . ' <span class="screen-reader-text" aria-hidden="true"> ' . __( 'Next post:', 'tms' ) . '</span>',
+			'prev_text' => tms_get_svg_icon( array( 'icon' => 'chevron-left', 'class' => 'meta-nav' ) ) . '<span class="screen-reader-text" aria-hidden="true"> ' . __( 'Previous post:', 'tms-theme' ) . '</span>',
+			'next_text' => tms_get_svg_icon( array( 'icon' => 'chevron-right', 'class' => 'meta-nav' ) ) . ' <span class="screen-reader-text" aria-hidden="true"> ' . __( 'Next post:', 'tms-theme' ) . '</span>',
 		);
 		?>
 
@@ -73,7 +73,7 @@ endif;
 	<?php
 	// If comments are closed and there are comments, let's leave a little note
 	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
-		echo '<p class="no-comments">' . __( 'Comments are closed.', 'tms' ) . '</p>';
+		echo '<p class="no-comments">' . __( 'Comments are closed.', 'tms-theme' ) . '</p>';
 	endif;
 	?>
 

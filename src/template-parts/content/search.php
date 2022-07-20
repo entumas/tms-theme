@@ -13,7 +13,7 @@
 
 <header class="search-header">
 
-	<h1 class="<?php echo $class_title; ?>"><?php _e( 'Search results for:', 'tms' ); ?> <?php echo strtoupper( get_search_query() ); ?></h1>
+	<h1 class="<?php echo $class_title; ?>"><?php _e( 'Search results for:', 'tms-theme' ); ?> <?php echo strtoupper( get_search_query() ); ?></h1>
 
 	<?php get_template_part( 'searchform' ); ?>
 

@@ -15,7 +15,7 @@
 
 	<h1>404</h1>
 
-	<p><?php esc_html_e( 'Oops! That page can&rsquo;t be found. 😲', 'tms' ); ?></p>
+	<p><?php esc_html_e( 'Oops! That page can&rsquo;t be found. 😲', 'tms-theme' ); ?></p>
 
 </header>
 

@@ -23,7 +23,7 @@ if ( ! function_exists( 'tms_post_states' ) ) :
 				&&
 			( 'page-templates/modules.php' == get_page_template_slug( $post->ID ) )
 		) :
-			$states[] = __( 'Modules', 'tms' );
+			$states[] = __( 'Modules', 'tms-theme' );
 		endif;
 
 

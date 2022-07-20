@@ -94,7 +94,7 @@ if ( ! function_exists( 'tms_setup' ) ) :
 	function tms_setup () {
 
 		// Textdomain
-		load_theme_textdomain( 'tms', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'tms-theme', get_template_directory() . '/languages' );
 
 
 		//Thumbnails
@@ -137,13 +137,12 @@ if ( ! function_exists( 'tms_menus' ) ) :
 	function tms_menus () {
 
 		register_nav_menus( array(
-			'main'     => __( 'Main menu', 'tms' ),
-			'sidenav'  => __( 'Sidenav menu', 'tms' ),
-			'top'      => __( 'Top menu', 'tms' ),
-			'footer'   => __( 'Footer menu', 'tms' ),
-			'legal'    => __( 'Legal menu', 'tms' ),
-			'social'   => __( 'Social menu', 'tms' ),
-			'language' => __( 'Language menu', 'tms' ),
+			'main'     => __( 'Main menu', 'tms-theme' ),
+			'sidenav'  => __( 'Sidenav menu', 'tms-theme' ),
+			'footer'   => __( 'Footer menu', 'tms-theme' ),
+			'legal'    => __( 'Legal menu', 'tms-theme' ),
+			'social'   => __( 'Social menu', 'tms-theme' ),
+			'language' => __( 'Language menu', 'tms-theme' ),
 		) );
 
 	}

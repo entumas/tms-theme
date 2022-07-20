@@ -29,7 +29,7 @@
 	</div>
 
 
-	<nav class="sidenav-menu" role="navigation" aria-label="<?php esc_attr_e( 'Sidenav menu', 'tms' ); ?>">
+	<nav class="sidenav-menu" role="navigation" aria-label="<?php esc_attr_e( 'Sidenav menu', 'tms-theme' ); ?>">
 
 		<?php
 		wp_nav_menu( array(

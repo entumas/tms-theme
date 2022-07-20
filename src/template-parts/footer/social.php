@@ -11,7 +11,7 @@
 ?>
 
 
-<nav class="footer-social" role="navigation" aria-label="<?php esc_attr_e( 'Main menu', 'tms' ); ?>">
+<nav class="footer-social" role="navigation" aria-label="<?php esc_attr_e( 'Main menu', 'tms-theme' ); ?>">
 
 	<?php
 	wp_nav_menu( array(

@@ -13,6 +13,6 @@
 
 <div class="header-burger">
 
-	<a class="burger"  href="#" data-target="mobile-menu" title="<?php _e( 'Menu',  'tms' ); ?>"><span></span><span></span><span></span><span class="screen-reader-text"><?php _e( 'Menu', 'tms' ); ?></span></a>
+	<a class="burger"  href="#" data-target="mobile-menu" title="<?php _e( 'Menu',  'tms-theme' ); ?>"><span></span><span></span><span></span><span class="screen-reader-text"><?php _e( 'Menu', 'tms-theme' ); ?></span></a>
 
 </div>

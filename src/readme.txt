@@ -1,4 +1,4 @@
-=== TMS ===
+=== TMS theme ===
 Contributors: @entumas
 
 TMS theme
