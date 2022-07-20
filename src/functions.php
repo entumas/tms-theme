@@ -5,9 +5,9 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
- * @subpackage TMS
- * @since TMS 1.0.0
- * @version TMS 1.0.0
+ * @subpackage TMS-theme
+ * @since TMS-theme 1.0.0
+ * @version TMS-theme 1.0.0
  *
  */
 
@@ -166,3 +166,4 @@ require_once get_template_directory() . '/admin/post-states.php';
 // ========================================
 
 require_once get_template_directory() . '/inc/favicon.php';
+require_once get_template_directory() . '/inc/base64url-encode.php';

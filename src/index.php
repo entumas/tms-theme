@@ -5,9 +5,9 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage TMS
- * @since TMS 1.0.0
- * @version TMS 1.0.0
+ * @subpackage TMS-theme
+ * @since TMS-theme 1.0.0
+ * @version TMS-theme 1.0.0
  *
  */
 
